@@ -227,61 +227,10 @@
 
   {
     "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
-    "@type" : "cids:IndicatorReport" ,
-    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q12023" ,
-    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" ,
-    "hasName" : "Indicator Report Q12023 - Food Waste Avoided" ,
-    "hasComment" : "Measurement estimated due to some missing data" ,
-    "value" : {
-      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
-      "@type" : "i72:Measure" ,
-      "numerical_value": "50"
-    }
-
-
-  } ,
-
-
-  {
-    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
-    "@type" : "cids:IndicatorReport" ,
-    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q22023" ,
-    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" ,
-    "hasName" : "Indicator Report Q22023 - Food Waste Avoided" ,
-    "hasComment" : "" ,
-    "value" : {
-      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
-      "@type" : "i72:Measure" ,
-      "numerical_value": "40"
-    }
-
-
-  } ,
-
-
-  {
-    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
-    "@type" : "cids:IndicatorReport" ,
-    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q32023" ,
-    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" ,
-    "hasName" : "Indicator Report Q32023 - Food Waste Avoided" ,
-    "hasComment" : "" ,
-    "value" : {
-      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
-      "@type" : "i72:Measure" ,
-      "numerical_value": "30"
-    }
-
-
-  } ,
-
-
-  {
-    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
     "@type" : "cids:Theme" ,
     "@id" : "https://sdgs.un.org/goals/goal12" ,
     "hasName" : "SDG 12: Responsible Production and Consumption" ,
-    "hasDescription" : "Ensure sustainable consumption and production patterns: The world is seriously off track in its effort to halve per-capita food waste and losses by 2030.The COVID-19 pandemic has had significant impacts on consumption and production patterns, with disruptions to global supply chains and changes in consumer behaviour. Responsible consumption and production must be an integral part of the recovery from the pandemic. But the global economy also needs to speed up the decoupling of economic growth from resource use by maximizing the socio-economic benefits of resources while minimizing their negative impacts. Reporting on corporate sustainability has tripled since the beginning of the SDG period, but the private sector will need to significantly improve reporting on activities that contribute to the SDGs. To deliver SDG12, it is crucial to implement policies that support the shift to sustainable practices and decouple economic growth from resource use." 
+    "hasDescription" : "responsible resource use" 
 
   },
 
@@ -291,7 +240,7 @@
     "@type" : "cids:Theme" ,
     "@id" : "https://sdgs.un.org/goals/goal13" ,
     "hasName" : "SDG 13: Climate Action" ,
-    "hasDescription" : "Take urgent action to combat climate change and its impacts: The world is on the brink of a climate catastrophe and current actions and plans to address the crisis are insufficient. Without transformative action starting now and within this decade to reduce greenhouse gas emissions deeply and rapidly in all sectors, the 1.5°C target will be at risk and with it the lives of more than 3 billion people. Failure to act leads to intensifying heatwaves, droughts, flooding, wildfires, sea-level rise, and famines. Emissions should already be decreasing now and will need to be cut almost by half by 2030 - a mere seven years from now. To combat climate change and its impacts by 2030, urgent and transformative action is needed to meet the commitments under the Paris Agreement across mitigation and adaptation efforts." 
+    "hasDescription" : "Take urgent action" 
   }
 
   
