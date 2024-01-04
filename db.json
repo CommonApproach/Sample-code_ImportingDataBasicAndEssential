@@ -1,0 +1,299 @@
+[
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Organization" ,
+    "@id" : "http://ZeroWasteMealKits.org/" ,
+    "org:hasLegalName" : "Zero Waste Meal Kits" ,
+    "hasIndicator" : ["http://ZeroWasteMealKits.org/Indicator/WasteReduced", 
+    "http://ZeroWasteMealKits.org/Indicator/FoodWasteBeforeRedirection" ,
+     "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" , 
+     "http://ZeroWasteMealKits.org/Indicator/PackagingDisplaced", 
+    "http://ZeroWasteMealKits.org/Indicator/UnitsorVolumeSoldTotal" ,
+    "http://ZeroWasteMealKits.org/Indicator/NonhazardousWasteAvoided" ,
+  "http://ZeroWasteMealKits.org/Indicator/GhGEmissionsAvoidedorReduced" , 
+"http://ZeroWasteMealKits.org/Indicator/GhGofFoodUsed" ,
+"http://ZeroWasteMealKits.org/Indicator/GhGOfProduct" ,
+"http://ZeroWasteMealKits.org/Indicator/GhGReductionsThroughVegetarianEating", 
+"http://ZeroWasteMealKits.org/Indicator/KMsDriven" , 
+"http://ZeroWasteMealKits.org/Indicator/PowerUsed" ] ,
+"hasOutcome" : ["http://ZeroWasteMealKits.org/Outcome/ReducedWaste" ,
+"http://ZeroWasteMealKits.org/Outcome/ReduceGhG" ]
+  } ,
+
+
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Outcome" ,
+    "@id" : "http://ZeroWasteMealKits.org/Outcome/ReducedWaste" ,
+    "hasName" : "Reduced Waste" ,
+    "hasIndicator" : ["http://ZeroWasteMealKits.org/Indicator/WasteReduced", 
+    "http://ZeroWasteMealKits.org/Indicator/FoodWasteBeforeRedirection" , 
+    "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" , 
+    "http://ZeroWasteMealKits.org/Indicator/UnitsorVolumeSoldTotal" , 
+    "http://ZeroWasteMealKits.org/Indicator/PackagingDisplaced" ,
+     "http://ZeroWasteMealKits.org/Indicator/NonhazardousWasteAvoided" ] ,
+    "hasDescription" : "We reduce waste through reduced food and water waste in kitchen and purchasing operations, through a low-waste product compared to competitors" 
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Outcome" ,
+    "@id" : "http://ZeroWasteMealKits.org/Outcome/ReduceGhG" ,
+    "hasName" : "Reduced GhG" ,
+    "hasDescription" : "We reduce GhG through reduced food waste, reduced packaging, reduced energy" ,
+    "hasIndicator" : ["http://ZeroWasteMealKits.org/Indicator/UnitsorVolumeSoldTotal" , 
+    "http://ZeroWasteMealKits.org/Indicator/NonhazardousWasteAvoided" , 
+    "http://ZeroWasteMealKits.org/Indicator/GhGEmissionsAvoidedorReduced" ,
+    "http://ZeroWasteMealKits.org/Indicator/GhGOfProduct" , 
+    "http://ZeroWasteMealKits.org/Indicator/PowerUsed", 
+    "http://ZeroWasteMealKits.org/Indicator/GhGReductionsThroughVegetarianEating" ,
+     "http://ZeroWasteMealKits.org/Indicator/KMsDriven" ,
+      "http://ZeroWasteMealKits.org/Indicator/GhGofFoodUsed"] 
+    
+  } ,
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/WasteReduced" ,
+    "hasName" : "Waste Reduced" ,
+    "hasDescription" : "This measures the weights of food and packaging waste reduced and avoided each period (see SPO-defined indicators). It is identical to non-hazardous waste avoided." ,
+    "hasIndicatorReport" : ["http://ZeroWasteMealKits.org/IndicatorReport/WasteReduced/Q32023http://ZeroWasteMealKits.org/IndicatorReport/WasteReduced/Q12023" , 
+    "http://ZeroWasteMealKits.org/IndicatorReport/WasteReduced/Q22023", 
+    "http://ZeroWasteMealKits.org/IndicatorReport/WasteReduced/Q32023"]
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteBeforeRedirection" ,
+    "hasName" : "Food waste before redirection" ,
+    "hasDescription" : "We weigh and record our daily food waste." ,
+    "hasIndicatorReport" : ["http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q12023" , 
+    "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q22023" , 
+    "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q32023"]
+
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" ,
+    "hasName" : "Food waste avoided" ,
+    "hasDescription" : "This is the amount of foodwaste that is redirected from landfill."
+
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/PackagingDisplaced" ,
+    "hasName" : "Packaging displaced" ,
+    "hasDescription" : "This is an estimated weight of waste avoided per meal kit based on competitor's products." 
+
+  } ,
+
+
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/UnitsorVolumeSoldTotal" ,
+    "hasName" : "Units or Volume Sold: total" ,
+    "hasDescription" : "This is the number of meal kits sold. Meal kits may contain 1,2 or 4 services. The average serving is 3.2" 
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/NonhazardousWasteAvoided" ,
+    "hasName" : "Non-hazardous waste avoided" ,
+    "hasDescription" : "This metric is tracked for comparability. It is identical to waste reduced."
+  },
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/GhGEmissionsAvoidedorReduced" ,
+    "hasName" : "GhG Emissions Avoided or Reduced" ,
+    "hasDescription" : "This is GHG of reduced food waste + GHG emissions from product replacements." 
+
+  } ,
+
+
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/GhGOfProduct" ,
+    "hasName" : "GhG of Product" ,
+    "hasDescription" : "This is a sum of GhG footprint of food served + (KMs driven)*value factor + power used* value factor + food waste* value factor." 
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/GhGReductionsThroughVegetarianEating" ,
+    "hasName" : "GhG reductions through vegetarian eating" ,
+    "hasDescription" : "This indicator estimates the effect of serving vegetarian meals. We estimate that 40% of our meals displace a meat-based meal. We estimate that 50% of our customers are going to replace a meat-based meal with a vegetarian meal. Therefore the number of meat meals replaced by a vegetarian meal is calculated as:  (meal kits sold * 3.2 servings * .4) + (meal kits sold * .1 * 3.2). We multiply this by a value factor to calculate GhG savings." 
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/KMsDriven" ,
+    "hasName" : "KMs Driven" ,
+    "hasDescription" : "Odometer reading from vehicle" 
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/PowerUsed" ,
+    "hasName" : "PowerUsed" ,
+    "hasDescription" : "Data from utility bill" 
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Indicator" ,
+    "@id" : "http://ZeroWasteMealKits.org/Indicator/GhGofFoodUsed" ,
+    "hasName" : "GhG footprint of food served" ,
+    "hasDescription" : "Based on estimate from carbon calculator" 
+  } ,
+
+
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:IndicatorReport" ,
+    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/WasteReduced/Q12023" ,
+    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/WasteReduced" ,
+    "hasName" : "Indicator Report Q12023 - Waste Reduced" ,
+    "hasComment" : "" ,
+    "value" : {
+      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+      "@type" : "i72:Measure" ,
+      "numerical_value": "100"
+    }
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:IndicatorReport" ,
+    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/WasteReduced/Q22023" ,
+    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/WasteReduced" ,
+    "hasName" : "Indicator Report Q22023 - Waste Reduced" ,
+    "hasComment" : "" ,
+    "value" : {
+      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+      "@type" : "i72:Measure" ,
+      "numerical_value": "80"
+    }
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:IndicatorReport" ,
+    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/WasteReduced/Q32023" ,
+    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/WasteReduced" ,
+    "hasName" : "Indicator Report Q32023 - Waste Reduced" ,
+    "hasComment" : "" ,
+    "value" : {
+      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+      "@type" : "i72:Measure" ,
+      "numerical_value": "60"
+    }
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:IndicatorReport" ,
+    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q12023" ,
+    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" ,
+    "hasName" : "Indicator Report Q12023 - Food Waste Avoided" ,
+    "hasComment" : "Measurement estimated due to some missing data" ,
+    "value" : {
+      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+      "@type" : "i72:Measure" ,
+      "numerical_value": "50"
+    }
+
+
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:IndicatorReport" ,
+    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q22023" ,
+    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" ,
+    "hasName" : "Indicator Report Q22023 - Food Waste Avoided" ,
+    "hasComment" : "" ,
+    "value" : {
+      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+      "@type" : "i72:Measure" ,
+      "numerical_value": "40"
+    }
+
+
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:IndicatorReport" ,
+    "@id" : "http://ZeroWasteMealKits.org/IndicatorReport/FoodWasteAvoided/Q32023" ,
+    "forIndicator" : "http://ZeroWasteMealKits.org/Indicator/FoodWasteAvoided" ,
+    "hasName" : "Indicator Report Q32023 - Food Waste Avoided" ,
+    "hasComment" : "" ,
+    "value" : {
+      "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+      "@type" : "i72:Measure" ,
+      "numerical_value": "30"
+    }
+
+
+  } ,
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Theme" ,
+    "@id" : "https://sdgs.un.org/goals/goal12" ,
+    "hasName" : "SDG 12: Responsible Production and Consumption" ,
+    "hasDescription" : "Ensure sustainable consumption and production patterns: The world is seriously off track in its effort to halve per-capita food waste and losses by 2030.The COVID-19 pandemic has had significant impacts on consumption and production patterns, with disruptions to global supply chains and changes in consumer behaviour. Responsible consumption and production must be an integral part of the recovery from the pandemic. But the global economy also needs to speed up the decoupling of economic growth from resource use by maximizing the socio-economic benefits of resources while minimizing their negative impacts. Reporting on corporate sustainability has tripled since the beginning of the SDG period, but the private sector will need to significantly improve reporting on activities that contribute to the SDGs. To deliver SDG12, it is crucial to implement policies that support the shift to sustainable practices and decouple economic growth from resource use." 
+
+  },
+
+
+  {
+    "@context" : "http://ontology.eil.utoronto.ca/cids/contexts/cidsContext.json" ,
+    "@type" : "cids:Theme" ,
+    "@id" : "https://sdgs.un.org/goals/goal13" ,
+    "hasName" : "SDG 13: Climate Action" ,
+    "hasDescription" : "Take urgent action to combat climate change and its impacts: The world is on the brink of a climate catastrophe and current actions and plans to address the crisis are insufficient. Without transformative action starting now and within this decade to reduce greenhouse gas emissions deeply and rapidly in all sectors, the 1.5°C target will be at risk and with it the lives of more than 3 billion people. Failure to act leads to intensifying heatwaves, droughts, flooding, wildfires, sea-level rise, and famines. Emissions should already be decreasing now and will need to be cut almost by half by 2030 - a mere seven years from now. To combat climate change and its impacts by 2030, urgent and transformative action is needed to meet the commitments under the Paris Agreement across mitigation and adaptation efforts." 
+  }
+
+  
+
+]
